@@ -37,3 +37,4 @@
 * [behave](https://github.com/behave/behave) - behave is behavior-driven development, Python style.
 * [conventional: comments](https://conventionalcomments.org/) - Комментарии, которые легко читать и понимать.
 * [Make VS Code Awesome](https://makevscodeawesome.com/) - Курс по настройке VS Code.
+* [naming](https://github.com/wemake-services/wemake-python-styleguide/blob/master/wemake_python_styleguide/violations/naming.py) - Гайд по неймингу в Python от wemake-services.
