@@ -26,11 +26,18 @@
 * [Mimesis: The Fake Data Generator](https://github.com/lk-geimfari/mimesis) - Лучшая библиотека для генерации фековых данных.
 * [Django-fakery](https://github.com/fcurella/django-fakery) - Генерация `Django` моделей.
 * [flake8-pytest-style](https://github.com/m-burst/flake8-pytest-style) - Плагин `flake8` проверяет общие проблемы в тестах написанных на основе `pytest`.
+* [PEP 692 - Keyword collisions](https://peps.python.org/pep-0692/#keyword-collisions) - про разные типы аргументов.
+* 
 
 ## Другие пололезные материалы
 
 * [pytest-bdd](https://github.com/pytest-dev/pytest-bdd) - BDD library for the pytest runner
 * [pytest-deadfixtures](https://github.com/jllorencetti/pytest-deadfixtures) - Простой плагин для составления списка неиспользуемых или дублирующихся фикстур в тестах pytest.
+* [Make tests a part of your app](https://sobolevn.me/2021/02/make-tests-a-part-of-your-app) - _**#вопрос** есть опыт использования кастомных hypothesis-стратегий для генерации сущностей типа UserData вместо фикстур с mimesis? Может есть какие-то известные потенциальные проблемы с этим? **#ответ** Никита Соболев: Да, есть. Нужно сначала делать правила, потом генерацию. Желательно правила привязывать к бизнес логике (из чата в Telegram)_
+* [factory_boy](https://github.com/FactoryBoy/factory_boy) - As a fixtures replacement tool, it aims to replace static, hard to maintain fixtures with easy-to-use factories for complex objects.
+* [pytest-watcher](https://github.com/olzhasar/pytest-watcher) - Rerun pytest when your code changes.
+* [pytest-testmon](https://testmon.org/) - pytest-testmon is a pytest plugin which selects and executes only tests you need to run.
+
 
 ## Материалы не по теме курса
 
@@ -38,3 +45,5 @@
 * [conventional: comments](https://conventionalcomments.org/) - Комментарии, которые легко читать и понимать.
 * [Make VS Code Awesome](https://makevscodeawesome.com/) - Курс по настройке VS Code.
 * [naming](https://github.com/wemake-services/wemake-python-styleguide/blob/master/wemake_python_styleguide/violations/naming.py) - Гайд по неймингу в Python от wemake-services.
+* [glom](https://github.com/mahmoud/glom) - Python's nested data operator (and CLI), for all your declarative restructuring needs. Got data? Glom it!
+* [wemake-django-template](https://github.com/wemake-services/wemake-django-template/) - Bleeding edge django3.2 template focused on code quality and security.
